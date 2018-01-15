@@ -18,11 +18,11 @@ public class NumberGame {
                 System.out.println("It's smaller than " + guess + " guess.");
             }
 
-            if (randomNumber > guess) {
+            else if (randomNumber > guess) {
                 System.out.println("It's greater than " + guess + " guess.");
 
             }
-            if (randomNumber == guess) {
+            else (randomNumber == guess) {
                 hasWon = true;
                 break;
 
